@@ -4,10 +4,10 @@
 		 xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
-	<!-- <http>
+	<http>
 		<intercept-url pattern="/products*" access="ROLE_ADMIN"/>
 		<http-basic />
-	</http> -->
+	</http>
 	
 	<!-- <http>
 		<intercept-url pattern="/products*" access="ROLE_ADMIN"/>
@@ -15,11 +15,11 @@
 		<logout logout-success-url="/login"/>
 	</http> -->
 	
-	<http>
+	<!-- <http>
 		<intercept-url pattern="/products*" access="ROLE_ADMIN"/>
 		<form-login login-page="/loginpage" />
 		<logout logout-success-url="/login"/>
-	</http> 
+	</http>  -->
   	
   	<authentication-manager>
 		<authentication-provider>
